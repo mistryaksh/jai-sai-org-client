@@ -1,9 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { FC } from "react";
-
 import { CAUSE_CARD_STYLES } from "../../constants";
-
-import { Button } from "../index";
 
 const STYLES = CAUSE_CARD_STYLES;
 

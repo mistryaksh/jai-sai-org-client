@@ -4,8 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 
 import { CAUSE_CARD_STYLES } from "../../constants";
 
-import { Button } from "../index";
-
 const STYLES = CAUSE_CARD_STYLES;
 
 type EventCardProps = {

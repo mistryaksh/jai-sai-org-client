@@ -106,7 +106,8 @@ export const ContactModule: FC = () => {
                                         JAI SAI MITRA MANDAL
                                    </h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light">
-                                        Trust address will here
+                                        Address: Sai darshan blg, near sainath nagar, near ramdev xerox, tulinj road,
+                                        nalasopara (E)
                                    </p>
                               </div>
                          </div>

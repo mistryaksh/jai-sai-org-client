@@ -1,18 +1,16 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { FC, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-import { ROUTES } from "../../core/enums";
 import { CAUSE_CARD_STYLES } from "../../core/constants";
 import { useLazyGetProgramByIdQuery } from "../../core/services";
 
-import { Loader, Button } from "../../core/components";
+import { Loader } from "../../core/components";
 
 const STYLES = CAUSE_CARD_STYLES;
 
 export const ProgramDetailsModule: FC = () => {
      const { programId } = useParams();
-     const navigate = useNavigate();
 
      const [GetProgramById, { data: program, error, isError, isLoading }] = useLazyGetProgramByIdQuery();
 
@@ -51,13 +49,13 @@ export const ProgramDetailsModule: FC = () => {
                                    }}
                               />
                          </p>
-                         <div className="sm:hidden block -mt-16 sm:-mt-14">
+                         {/* <div className="sm:hidden block -mt-16 sm:-mt-14">
                               <Button
                                    value="Donate Now"
                                    onClick={() => navigate(`${ROUTES.DONATION}?programId=${programId}`)}
                                    sm
                               />
-                         </div>
+                         </div> */}
                          {/* <div className="sm:block hidden -mt-20 sm:-mt-14">
                   <Button value="Donate Now" onClick={() => navigate(`${ROUTES.DONATION}?programId=${programId}`)} />
                </div> */}
