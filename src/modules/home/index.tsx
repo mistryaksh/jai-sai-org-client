@@ -65,10 +65,10 @@ export const HomeModule = () => {
                                         </div>
                                    </div>
                               </div>
-                              <div className="xl:flex-1 flex justify-center items-center">
+                              <div className="xl:flex-1 bg-gray-900 bg-opacity-90 rounded-full flex justify-center items-center">
                                    <img
-                                        className="w-full  rounded-lg"
-                                        src="https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                        className="w-[80%] rounded-lg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/sainath-padyatri-form.appspot.com/o/SAI_BABA.png?alt=media&token=d58b8cf7-01bf-403c-87c4-e1214735c183"
                                         alt=""
                                    />
                               </div>
